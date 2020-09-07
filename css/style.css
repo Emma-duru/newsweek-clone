@@ -1,0 +1,607 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #F4F5F6;
+}
+
+.page-container {
+    max-width: 1300px;
+    margin: auto;
+}  
+
+
+
+/* General Styling */
+.login, .login:hover, .subscribe, .subscribe:hover, .nav-link, .section-heading, .card-body::before, .focus::before, .card-title, .author, .icon, .card-btn, .card-subheading, .subscribe-text h3, .fourth .btn, footer .logo-text, .edition-text {
+    font-weight: 700;
+}
+
+/* Display Inline */
+.top-footer .logo-text, .copyright, .edition-text, .edition-list, .edition-item, .privacy-item {
+    display: inline;
+}
+
+/* Arial Font-Family */
+.top-nav input, .card-text, .icon, .subscribe-text p, footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background Color White Text */
+.top-header, .icon, .magazine-cat, .focus::before, .fourth .btn {
+    background-color: #F72210;
+    color: white;
+}
+
+/* Relative Position */
+.top-header, .bottom-header, .card-body, .debate, .card-btn, .focus, .img-container {
+    position: relative;
+}
+
+/* 15px Font-size */
+.location-weather, .card-text, .focus::before, .subscribe-text p {
+    font-size: 15px;
+}
+
+/* Right Floating */
+.signup, .right-img, .footer-icons {
+    float: right;
+}
+
+/* Black Text */
+.subscribe, .subscribe:hover, .nav-link, .magazine .section-heading, .editor .section-heading, .edition-item:hover, .privacy-item:hover {
+    color: black;
+}
+
+/* Absolute Position */
+.logo, .bottom-header::before, .top-nav form, .card-body::before, .focus::before, .vs, .over-img {
+    position: absolute;
+}
+
+/* Font Color of #f72210 */
+a.nav-link:hover, .bottom-nav a.nav-link:hover, .card-body::before, .focus::before, .card-subheading, .cat-heading, footer .logo-text {
+    color: #F72210;
+}
+
+/* 24px font size */
+.card-title, .subscribe-text h3, .newsletter .card-title, .footer-icon {
+    font-size: 24px;
+}
+
+
+
+/* Top Header Styling */
+.top-header {
+    padding: 1% 2%;
+}
+
+.login, .login:hover, .subscribe, .subscribe:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.login, .login:hover {
+    color: white;
+    margin: 1rem;
+}
+
+.subscribe, .subscribe:hover {
+    padding: 5px 20px;
+    background-color: #FFE400;
+    border-radius: 40px;
+    margin: 1rem;
+}
+
+.logo {
+    right: 35%;
+    top: 1%;
+}
+
+.logo-text {
+    font-size: 5.5rem;
+    font-family: "Bree Serif", 'Times New Roman', Times, serif;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+
+
+/* Bottom Header Styling */
+.bottom-header {
+    background-color: white;
+}
+
+.bottom-header::before {
+    content: "";
+    border-top: 1.5em solid #F72210;
+    border-right: 5em solid #F72210;
+    border-left: 0.9em solid transparent;
+    right: 0;
+    top: 0;
+}
+
+.bottom-header nav {
+    padding: 0.5rem 1.5rem;
+}
+
+
+/* .top-nav .nav-link{ 
+    border-left: 1px solid #F4F5F7;
+} */
+
+.nav-link {
+    font-size: 19px;
+    margin: 0 8px;
+}
+
+.top-nav form {
+    left: 83%;
+    width: 10%;
+}
+
+.top-nav input {
+    width: 90px;
+    padding: 3px;
+    border: none;
+}
+
+.bottom-nav {
+    border-top: 2px solid #F4F5F6;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F4F5F6;
+    padding-left: 1rem;
+}
+
+.bottom-nav .nav-link {
+    font-size: 16px;
+}
+
+.bottom-nav a.nav-link {
+    color: #777777;
+}
+
+
+
+/* Main Content Styling */
+main {
+    background-color: white;
+    padding: 1% 2.5%;
+}
+
+.section-heading {
+    color: #9A9A9A;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    width: 100%;
+}
+
+.card-img-top  {
+    border-radius: 0;
+    width: 100%;
+}
+
+.card-body {
+    padding: 20px 0;
+}
+
+.card-body::before, .focus::before {
+    padding: 10px;
+    background-color: white;
+    opacity: 0.9;
+    left: 0;
+    top: -40px;
+}
+
+.card-title {
+    cursor: pointer;
+    line-height: 1;
+}
+
+.card-title:hover {
+    text-decoration: underline;
+    text-decoration-color: #F72210;
+}
+
+.news-cat::before {
+    content: "NEWS";
+}
+
+.world-cat::before {
+    content: "WORLD";
+}
+
+.us-cat::before {
+    content: "U.S.";
+}
+
+.tech-cat::before {
+    content: "TECH & SCIENCE";
+}
+
+.health-cat::before {
+    content: "HEALTH";
+}
+
+
+
+/* Blue Card Section */
+.blue-card .card-body{
+    padding: 15px;
+    border: 0.5px solid #eee8e8;
+    margin-bottom: 15px;
+}
+
+.blue-card .card-body::before {
+    color: #3581F4;
+    left: -1px;
+}
+
+.rank-cat::before {
+    content: "RANKING";
+}
+
+
+
+/* Top Story Section Styling */
+.faint-card .card-title {
+    font-size: 16px;
+    color: #818181;
+}
+
+.faint-card .card-title:hover {
+    text-decoration: none;
+}
+
+.culture-row .card-body::before {
+    content: "RHINO POACHING";
+    color: #444444;
+    padding: 5px;
+    font-size: 13px;
+    top: -30px;
+}
+
+.more-stories {
+    border-top: 1px solid #AAAAAA;
+}
+
+.left-img {
+    float: left;
+    margin-right: 15px;
+}
+
+.right-img {
+    margin-left: 15px;
+}
+
+.more-stories .card-title {
+    font-size: 17px;
+}
+
+
+
+/* Debate Section */
+.debate {
+    border-top: 5px solid #D9D9D9;
+    border-bottom: 5px solid #D9D9D9;
+}
+
+.debate img, .opinion img {
+    border-radius: 100%;
+    width: 70px;
+}
+
+.debate .card-title, .opinion .card-title {
+    font-size: 17px;
+}
+
+.debate .card1 {
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.debate .card2 {
+    border-top: 1px solid #D9D9D9;
+    margin-top: 1px;
+}
+
+.card-author, .author {
+    font-size: 14px;
+}
+
+.vs {
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font: bold 14px/32px "Roboto Condensed",sans-serif;
+    text-align: center;
+    left: 45%;
+    top: 42%;
+}
+
+
+
+/* Opinion Styling */
+.opinion {
+    margin-top: 20px;
+}
+
+.opinion .card {
+    border-top: 1px solid #D9D9D9;
+}
+
+.opinion .card1 {
+    border: none;
+}
+
+.opinion .card-body {
+    padding: 0 auto;
+}
+
+.opinion p {
+    margin: 0 auto;
+}
+
+.opinion .author {
+    color: #555555;
+}
+
+
+
+/* Third Section */
+.icon {
+    padding: 5px 8px;
+    margin-right: 10px;
+}
+
+.magazine .section-heading, .editor .section-heading{
+    font-size: 19px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    border: 1px solid #eee8e8;
+    border-bottom: none;
+}
+
+
+
+/* Magazine Styling */
+.magazine {
+    height: 100%;
+}
+.magazine .card-title {
+    font-size: 20px;
+}
+
+.magazine .card-subheading, .focus {
+    margin-top: 15px;
+}
+
+.card-btn {
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+}
+
+.card-btn:hover {
+    background-color: #DBDCDD;
+}
+
+.magazine .issue-cat  {
+    padding: 0;
+}
+
+.card-subheading {
+    font-size: 16px;
+}
+
+.magazine-cat {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.magazine .card-body::before {
+    font-size: 16px;
+}
+
+.issue-cat::before {
+    content: "SEPTEMBER 18 ISSUE";
+}
+
+.focus::before {
+    content: "IN FOCUS";
+    top: -50px;
+}
+
+
+
+/* U.S. Row */
+.cat-heading {
+    text-align: left;
+    font-size: 22px;
+}
+
+.us .card-body::before {
+    content: "";
+    background: none;
+}
+
+.third .more-stories {
+    border-top: none;
+}
+
+.side-img {
+    width: 80px;
+}
+
+.side-card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+/* Subscribe Row */
+.cta {
+    border-top: 2px solid #F4F5F6;
+    background-color: white;
+    padding: 28px;
+    border-bottom: 2px solid #F4F5F6;
+}
+.fourth .cat-heading {
+    font-size: 16px;
+}
+
+.subscribe-row {
+    background-color: #F4F5F6;
+    padding: 48px 20px;
+    margin: 2px;
+}
+
+.over-img {
+    top: 10px;
+    left: 100px;
+}
+
+.subscribe-text {
+    width: 85%;
+    margin-left: 75px;
+}
+
+.subscribe-text h3 {
+    margin-bottom: 20px;
+}
+
+.fourth .btn {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+
+
+/* Newsletter Row Styling */
+.newsletter {
+    border: 1px solid #F4F5F6;
+}
+
+.newsletter .card-body {
+    padding: 20px;
+    text-align: left;
+}
+
+.newsletter .card-text {
+    text-align: left;
+}
+
+form {
+    width: 100%;
+}
+
+input[type=email] {
+    width: 100%;
+    border: 1px solid #F4F5F6;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+/* Footer Styling */
+footer {
+    background-color: white;
+    padding: 28px;
+    color: #777777;
+}
+
+footer .logo-text {
+    font-size: 3rem;
+}
+
+.footer-icon {
+    background: none;
+    color: #777777;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.bottom-footer {
+    font-size: 14px;
+}
+
+.edition-list, .privacy {
+    list-style-type: none;
+    padding: 0;
+}
+
+.edition-item, .privacy-item {
+    padding: 0 10px;
+    border-right: 1px solid #aaaaaa;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.last-item {
+    border-right: none;
+}
+
+
+
+/* Media Queries*/
+@media (max-width: 992px) {
+    
+    .location-weather, .date {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .signup, .signup-col {
+        display: inline;
+    }
+    
+    .head-logo {
+        font-size: 24px;
+    }
+
+    .navbar-toggler {
+        display: unset;
+    }
+
+    .bottom-header {
+        background: white;
+        border: none;
+    }
+
+    .bottom-header::before {
+        display: none;
+    }
+
+    .nav-item {
+        border: none;
+    }
+
+    .top-nav form {
+        position: static;
+    }
+}
