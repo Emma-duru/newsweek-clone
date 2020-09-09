@@ -565,13 +565,6 @@ footer .logo-text {
 
 /* Media Queries*/
 @media (max-width: 992px) {
-
-    header {
-        position: fixed;
-        width: 100%;
-        z-index: 1;
-    }
-
     main {
         padding-top: 100px;
     }
